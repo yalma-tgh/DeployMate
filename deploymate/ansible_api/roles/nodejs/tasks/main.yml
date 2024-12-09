@@ -1,0 +1,6 @@
+# deploymate/ansible_api/roles/nodejs/tasks/main.yml
+- name: Install Node.js
+  apt:
+    name: nodejs
+    state: present
+    update_cache: yes

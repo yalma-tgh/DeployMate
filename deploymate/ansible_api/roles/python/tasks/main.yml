@@ -1,0 +1,6 @@
+# deploymate/ansible_api/roles/python/tasks/main.yml
+- name: Install Python
+  apt:
+    name: python3
+    state: present
+    update_cache: yes

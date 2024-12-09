@@ -1,0 +1,6 @@
+# deploymate/ansible_api/roles/docker/tasks/main.yml
+- name: Install nmap
+  apt:
+    name: nmap
+    state: present
+    update_cache: yes

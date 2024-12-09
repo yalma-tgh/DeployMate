@@ -1,0 +1,6 @@
+# deploymate/ansible_api/roles/mysql/tasks/main.yml
+- name: Install MySQL
+  apt:
+    name: mysql-server
+    state: present
+    update_cache: yes
